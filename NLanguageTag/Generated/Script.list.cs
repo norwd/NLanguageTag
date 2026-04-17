@@ -790,6 +790,17 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
+		/// Han (Traditional variant) with Latin (alias for Hant + Latn)
+		/// added: 2025-05-14
+		/// </summary>
+		public static Script Hntl => HntlCache.Instance;
+
+		private static class HntlCache
+		{
+			public static readonly Script Instance = new Script("Hntl", ScriptCode.Hntl);
+		}
+
+		/// <summary>
 		/// Japanese syllabaries (alias for Hiragana + Katakana)
 		/// added: 2005-10-16
 		/// </summary>
@@ -1844,6 +1855,18 @@ namespace NLanguageTag
 		private static class SaurCache
 		{
 			public static readonly Script Instance = new Script("Saur", ScriptCode.Saur);
+		}
+
+		/// <summary>
+		/// Seal
+		/// Small Seal
+		/// added: 2025-05-14
+		/// </summary>
+		public static Script Seal => SealCache.Instance;
+
+		private static class SealCache
+		{
+			public static readonly Script Instance = new Script("Seal", ScriptCode.Seal);
 		}
 
 		/// <summary>

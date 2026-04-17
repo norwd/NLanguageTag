@@ -43,6 +43,11 @@ namespace NLanguageTag
 		Abl1943 = 7,
 
 		/// <summary>
+		/// code of <see cref="Variant.Akhmimic"/>
+		/// </summary>
+		Akhmimic = 128,
+
+		/// <summary>
 		/// code of <see cref="Variant.Akuapem"/>
 		/// </summary>
 		Akuapem = 10,
@@ -148,6 +153,11 @@ namespace NLanguageTag
 		Blasl = 111,
 
 		/// <summary>
+		/// code of <see cref="Variant.Bohairic"/>
+		/// </summary>
+		Bohairic = 129,
+
+		/// <summary>
 		/// code of <see cref="Variant.Bohoric"/>
 		/// </summary>
 		Bohoric = 24,
@@ -201,6 +211,11 @@ namespace NLanguageTag
 		/// code of <see cref="Variant.Fascia"/>
 		/// </summary>
 		Fascia = 115,
+
+		/// <summary>
+		/// code of <see cref="Variant.Fayyumic"/>
+		/// </summary>
+		Fayyumic = 130,
 
 		/// <summary>
 		/// code of <see cref="Variant.Fodom"/>
@@ -378,6 +393,11 @@ namespace NLanguageTag
 		Luna1918 = 59,
 
 		/// <summary>
+		/// code of <see cref="Variant.Lycopol"/>
+		/// </summary>
+		Lycopol = 131,
+
+		/// <summary>
 		/// code of <see cref="Variant.Mdcegyp"/>
 		/// </summary>
 		Mdcegyp = 125,
@@ -386,6 +406,11 @@ namespace NLanguageTag
 		/// code of <see cref="Variant.Mdctrans"/>
 		/// </summary>
 		Mdctrans = 126,
+
+		/// <summary>
+		/// code of <see cref="Variant.Mesokem"/>
+		/// </summary>
+		Mesokem = 132,
 
 		/// <summary>
 		/// code of <see cref="Variant.Metelko"/>
@@ -508,6 +533,11 @@ namespace NLanguageTag
 		Rumgr = 81,
 
 		/// <summary>
+		/// code of <see cref="Variant.Sahidic"/>
+		/// </summary>
+		Sahidic = 133,
+
+		/// <summary>
 		/// code of <see cref="Variant.Saigon"/>
 		/// </summary>
 		Saigon = 127,
@@ -528,6 +558,11 @@ namespace NLanguageTag
 		Simple = 84,
 
 		/// <summary>
+		/// code of <see cref="Variant.Slepe"/>
+		/// </summary>
+		Slepe = 134,
+
+		/// <summary>
 		/// code of <see cref="Variant.Solba"/>
 		/// </summary>
 		Solba = 85,
@@ -541,6 +576,11 @@ namespace NLanguageTag
 		/// code of <see cref="Variant.Spanglis"/>
 		/// </summary>
 		Spanglis = 87,
+
+		/// <summary>
+		/// code of <see cref="Variant.Stadi"/>
+		/// </summary>
+		Stadi = 135,
 
 		/// <summary>
 		/// code of <see cref="Variant.Surmiran"/>
@@ -561,6 +601,11 @@ namespace NLanguageTag
 		/// code of <see cref="Variant.Synnejyl"/>
 		/// </summary>
 		Synnejyl = 108,
+
+		/// <summary>
+		/// code of <see cref="Variant.Taglish"/>
+		/// </summary>
+		Taglish = 136,
 
 		/// <summary>
 		/// code of <see cref="Variant.Tailo"/>
@@ -626,6 +671,11 @@ namespace NLanguageTag
 		/// code of <see cref="Variant.Vecdruka"/>
 		/// </summary>
 		Vecdruka = 106,
+
+		/// <summary>
+		/// code of <see cref="Variant.Viennese"/>
+		/// </summary>
+		Viennese = 137,
 
 		/// <summary>
 		/// code of <see cref="Variant.Vivaraup"/>

@@ -83,6 +83,7 @@ namespace NLanguageTag
 				case ScriptCode.Hluw: return HluwCache.Instance;
 				case ScriptCode.Hmng: return HmngCache.Instance;
 				case ScriptCode.Hmnp: return HmnpCache.Instance;
+				case ScriptCode.Hntl: return HntlCache.Instance;
 				case ScriptCode.Hrkt: return HrktCache.Instance;
 				case ScriptCode.Hung: return HungCache.Instance;
 				case ScriptCode.Inds: return IndsCache.Instance;
@@ -176,6 +177,7 @@ namespace NLanguageTag
 				case ScriptCode.Sara: return SaraCache.Instance;
 				case ScriptCode.Sarb: return SarbCache.Instance;
 				case ScriptCode.Saur: return SaurCache.Instance;
+				case ScriptCode.Seal: return SealCache.Instance;
 				case ScriptCode.Sgnw: return SgnwCache.Instance;
 				case ScriptCode.Shaw: return ShawCache.Instance;
 				case ScriptCode.Shrd: return ShrdCache.Instance;

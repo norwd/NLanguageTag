@@ -7341,6 +7341,7 @@ namespace NLanguageTag
 
 		/// <summary>
 		/// Assiniboine
+		/// Nakoda Assiniboine
 		/// added: 2009-07-29
 		/// </summary>
 		public static Language ASB => ASBCache.Instance;
@@ -7954,6 +7955,7 @@ namespace NLanguageTag
 
 		/// <summary>
 		/// Atikamekw
+		/// Nehirowimowin
 		/// added: 2009-07-29
 		/// </summary>
 		public static Language ATJ => ATJCache.Instance;
@@ -17031,7 +17033,7 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
-		/// Mundabli
+		/// Mundabli-Mufu
 		/// added: 2009-07-29
 		/// </summary>
 		public static Language BOE => BOECache.Instance;
@@ -25728,6 +25730,7 @@ namespace NLanguageTag
 
 		/// <summary>
 		/// Chilcotin
+		/// Tsilhqot’in
 		/// added: 2009-07-29
 		/// </summary>
 		public static Language CLC => CLCCache.Instance;
@@ -25879,6 +25882,7 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
+		/// Klallam
 		/// Clallam
 		/// added: 2009-07-29
 		/// </summary>
@@ -35156,6 +35160,25 @@ namespace NLanguageTag
                 null,
                 null,
                 null,
+                false);
+		}
+
+		/// <summary>
+		/// Bhutanese Sign Language
+		/// added: 2026-04-09
+		/// </summary>
+		public static Language DYL => DYLCache.Instance;
+
+		private static class DYLCache
+		{
+			public static readonly Language Instance = new Language(
+                "dyl",
+                LanguageCode.DYL,
+                null,
+                null,
+                null,
+                null,
+                Language.SGN,
                 false);
 		}
 
@@ -46606,7 +46629,7 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
-		/// Han
+		/// Hän
 		/// added: 2009-07-29
 		/// </summary>
 		public static Language HAA => HAACache.Instance;
@@ -57821,6 +57844,7 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
+		/// Ngyian
 		/// Kamantan
 		/// added: 2009-07-29
 		/// </summary>
@@ -67706,6 +67730,7 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
+		/// Kwak'wala
 		/// Kwakiutl
 		/// added: 2009-07-29
 		/// </summary>
@@ -71384,6 +71409,25 @@ namespace NLanguageTag
 			public static readonly Language Instance = new Language(
                 "lfa",
                 LanguageCode.LFA,
+                null,
+                null,
+                null,
+                null,
+                null,
+                false);
+		}
+
+		/// <summary>
+		/// Buu (Cameroon)
+		/// added: 2026-04-09
+		/// </summary>
+		public static Language LFB => LFBCache.Instance;
+
+		private static class LFBCache
+		{
+			public static readonly Language Instance = new Language(
+                "lfb",
+                LanguageCode.LFB,
                 null,
                 null,
                 null,
@@ -75545,7 +75589,7 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
-		/// Luiseno
+		/// Luiseño
 		/// added: 2005-10-16
 		/// </summary>
 		public static Language LUI => LUICache.Instance;
@@ -79944,7 +79988,7 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
-		/// Mócheno
+		/// Mòcheno
 		/// added: 2009-07-29
 		/// </summary>
 		public static Language MHN => MHNCache.Instance;
@@ -91145,8 +91189,9 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
-		/// Newari
 		/// Nepal Bhasa
+		/// Newar
+		/// Newari
 		/// added: 2005-10-16
 		/// </summary>
 		public static Language NEW => NEWCache.Instance;
@@ -97962,9 +98007,9 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
-		/// Nyanja
-		/// Chewa
 		/// Chichewa
+		/// Chewa
+		/// Nyanja
 		/// added: 2005-10-16
 		/// </summary>
 		public static Language NY => NYCache.Instance;
@@ -98679,6 +98724,26 @@ namespace NLanguageTag
 			public static readonly Language Instance = new Language(
                 "oac",
                 LanguageCode.OAC,
+                null,
+                null,
+                null,
+                null,
+                null,
+                false);
+		}
+
+		/// <summary>
+		/// Noakhali
+		/// Noakhailla
+		/// added: 2025-05-14
+		/// </summary>
+		public static Language OAK => OAKCache.Instance;
+
+		private static class OAKCache
+		{
+			public static readonly Language Instance = new Language(
+                "oak",
+                LanguageCode.OAK,
                 null,
                 null,
                 null,
@@ -99877,6 +99942,25 @@ namespace NLanguageTag
 			public static readonly Language Instance = new Language(
                 "ola",
                 LanguageCode.OLA,
+                null,
+                null,
+                null,
+                null,
+                null,
+                false);
+		}
+
+		/// <summary>
+		/// Oli-Bodiman
+		/// added: 2026-04-09
+		/// </summary>
+		public static Language OLB => OLBCache.Instance;
+
+		private static class OLBCache
+		{
+			public static readonly Language Instance = new Language(
+                "olb",
+                LanguageCode.OLB,
                 null,
                 null,
                 null,
@@ -101257,6 +101341,9 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
+		/// Iron Ossetic
+		/// Iron
+		/// Iron Ossetian
 		/// Ossetian
 		/// Ossetic
 		/// added: 2005-10-16
@@ -101306,6 +101393,27 @@ namespace NLanguageTag
 			public static readonly Language Instance = new Language(
                 "osc",
                 LanguageCode.OSC,
+                null,
+                null,
+                null,
+                null,
+                null,
+                false);
+		}
+
+		/// <summary>
+		/// Digor Ossetic
+		/// Digor
+		/// Digor Ossetian
+		/// added: 2026-04-09
+		/// </summary>
+		public static Language OSD => OSDCache.Instance;
+
+		private static class OSDCache
+		{
+			public static readonly Language Instance = new Language(
+                "osd",
+                LanguageCode.OSD,
                 null,
                 null,
                 null,
@@ -114813,6 +114921,25 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
+		/// Shaetlan
+		/// added: 2026-04-09
+		/// </summary>
+		public static Language SCZ => SCZCache.Instance;
+
+		private static class SCZCache
+		{
+			public static readonly Language Instance = new Language(
+                "scz",
+                LanguageCode.SCZ,
+                null,
+                null,
+                null,
+                null,
+                null,
+                false);
+		}
+
+		/// <summary>
 		/// Sindhi
 		/// added: 2005-10-16
 		/// </summary>
@@ -115310,6 +115437,7 @@ namespace NLanguageTag
 
 		/// <summary>
 		/// Sechelt
+		/// She shashishalhem
 		/// added: 2009-07-29
 		/// </summary>
 		public static Language SEC => SECCache.Instance;
@@ -116645,6 +116773,7 @@ namespace NLanguageTag
 
 		/// <summary>
 		/// Shuswap
+		/// Secwepemctsín
 		/// added: 2009-07-29
 		/// </summary>
 		public static Language SHS => SHSCache.Instance;
@@ -120533,6 +120662,7 @@ namespace NLanguageTag
 
 		/// <summary>
 		/// Squamish
+		/// Sḵwx̱wú7mesh sníchim
 		/// added: 2009-07-29
 		/// </summary>
 		public static Language SQU => SQUCache.Instance;
@@ -126864,6 +126994,8 @@ namespace NLanguageTag
 
 		/// <summary>
 		/// Thompson
+		/// Nłeʔkepmxcín
+		/// Thompson River Salish
 		/// added: 2009-07-29
 		/// </summary>
 		public static Language THP => THPCache.Instance;
@@ -126940,6 +127072,7 @@ namespace NLanguageTag
 
 		/// <summary>
 		/// Tahltan
+		/// Tāłtān
 		/// added: 2009-07-29
 		/// </summary>
 		public static Language THT => THTCache.Instance;
@@ -152397,6 +152530,7 @@ namespace NLanguageTag
 		/// Yola
 		/// added: 2009-07-29
 		/// </summary>
+		[Obsolete("use enm, deprecated from 2026-04-09")]
 		public static Language YOL => YOLCache.Instance;
 
 		private static class YOLCache
@@ -152409,7 +152543,7 @@ namespace NLanguageTag
                 null,
                 null,
                 null,
-                false);
+                true);
 		}
 
 		/// <summary>
@@ -156037,7 +156171,7 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
-		/// Mpuono
+		/// Mbuun
 		/// added: 2009-07-29
 		/// </summary>
 		public static Language ZMP => ZMPCache.Instance;

@@ -86,6 +86,17 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
+		/// Akhmimic dialect of Coptic
+		/// added: 2025-07-14
+		/// </summary>
+		public static Variant Akhmimic => AkhmimicCache.Instance;
+
+		private static class AkhmimicCache
+		{
+			public static readonly Variant Instance = new Variant("akhmimic", VariantCode.Akhmimic, new string[] { "cop" }, false);
+		}
+
+		/// <summary>
 		/// Akuapem Twi
 		/// added: 2017-06-05
 		/// </summary>
@@ -339,6 +350,17 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
+		/// Bohairic dialect of Coptic
+		/// added: 2025-07-14
+		/// </summary>
+		public static Variant Bohairic => BohairicCache.Instance;
+
+		private static class BohairicCache
+		{
+			public static readonly Variant Instance = new Variant("bohairic", VariantCode.Bohairic, new string[] { "cop" }, false);
+		}
+
+		/// <summary>
 		/// Slovene in Bohorič alphabet
 		/// The subtag represents the alphabet codified by Adam Bohorič in 1584 and used from the first printed Slovene book and up to the mid-19th century.
 		/// added: 2012-06-27
@@ -465,6 +487,17 @@ namespace NLanguageTag
 		private static class FasciaCache
 		{
 			public static readonly Variant Instance = new Variant("fascia", VariantCode.Fascia, new string[] { "lld" }, false);
+		}
+
+		/// <summary>
+		/// Fayyumic dialect of Coptic
+		/// added: 2025-07-14
+		/// </summary>
+		public static Variant Fayyumic => FayyumicCache.Instance;
+
+		private static class FayyumicCache
+		{
+			public static readonly Variant Instance = new Variant("fayyumic", VariantCode.Fayyumic, new string[] { "cop" }, false);
 		}
 
 		/// <summary>
@@ -878,6 +911,17 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
+		/// Lycopolitan alias Subakhmimic dialect of Coptic
+		/// added: 2025-07-14
+		/// </summary>
+		public static Variant Lycopol => LycopolCache.Instance;
+
+		private static class LycopolCache
+		{
+			public static readonly Variant Instance = new Variant("lycopol", VariantCode.Lycopol, new string[] { "cop" }, false);
+		}
+
+		/// <summary>
 		/// Ancient Egyptian hieroglyphs encoded in Manuel de Codage
 		/// added: 2025-02-06
 		/// </summary>
@@ -897,6 +941,17 @@ namespace NLanguageTag
 		private static class MdctransCache
 		{
 			public static readonly Variant Instance = new Variant("mdctrans", VariantCode.Mdctrans, new string[] { "egy" }, false);
+		}
+
+		/// <summary>
+		/// Mesokemic alias Oxyrhynchite dialect of Coptic
+		/// added: 2025-07-14
+		/// </summary>
+		public static Variant Mesokem => MesokemCache.Instance;
+
+		private static class MesokemCache
+		{
+			public static readonly Variant Instance = new Variant("mesokem", VariantCode.Mesokem, new string[] { "cop" }, false);
 		}
 
 		/// <summary>
@@ -1194,6 +1249,17 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
+		/// Sahidic dialect of Coptic
+		/// added: 2025-07-14
+		/// </summary>
+		public static Variant Sahidic => SahidicCache.Instance;
+
+		private static class SahidicCache
+		{
+			public static readonly Variant Instance = new Variant("sahidic", VariantCode.Sahidic, new string[] { "cop" }, false);
+		}
+
+		/// <summary>
 		/// The Sài Gòn variant of Vietnamese
 		/// added: 2025-03-10
 		/// </summary>
@@ -1239,6 +1305,18 @@ namespace NLanguageTag
 		}
 
 		/// <summary>
+		/// Sorbian dialect of Schleife
+		/// Spoken in the Free State of Saxony in Germany
+		/// added: 2026-04-09
+		/// </summary>
+		public static Variant Slepe => SlepeCache.Instance;
+
+		private static class SlepeCache
+		{
+			public static readonly Variant Instance = new Variant("slepe", VariantCode.Slepe, new string[] { "dsb" }, false);
+		}
+
+		/// <summary>
 		/// The Stolvizza dialect of Resian
 		/// The Solbica dialect of Resian
 		/// The dialect of Stolvizza/Solbica is one of the four major local dialects of Resian
@@ -1273,6 +1351,18 @@ namespace NLanguageTag
 		private static class SpanglisCache
 		{
 			public static readonly Variant Instance = new Variant("spanglis", VariantCode.Spanglis, new string[] { "en", "es" }, false);
+		}
+
+		/// <summary>
+		/// The "Stadin slangi" dialect of Finnish
+		/// "Stadi" means the city of Helsinki in the dialect.
+		/// added: 2026-04-09
+		/// </summary>
+		public static Variant Stadi => StadiCache.Instance;
+
+		private static class StadiCache
+		{
+			public static readonly Variant Instance = new Variant("stadi", VariantCode.Stadi, new string[] { "fi" }, false);
 		}
 
 		/// <summary>
@@ -1321,6 +1411,18 @@ namespace NLanguageTag
 		private static class SynnejylCache
 		{
 			public static readonly Variant Instance = new Variant("synnejyl", VariantCode.Synnejyl, new string[] { "da" }, false);
+		}
+
+		/// <summary>
+		/// Tagalog-English code-switching
+		/// This subtag represents Taglish, wherever it is different from straight Tagalog or straight English.
+		/// added: 2026-04-09
+		/// </summary>
+		public static Variant Taglish => TaglishCache.Instance;
+
+		private static class TaglishCache
+		{
+			public static readonly Variant Instance = new Variant("taglish", VariantCode.Taglish, new string[] { "en", "tl", "fil" }, false);
 		}
 
 		/// <summary>
@@ -1477,6 +1579,17 @@ namespace NLanguageTag
 		private static class VecdrukaCache
 		{
 			public static readonly Variant Instance = new Variant("vecdruka", VariantCode.Vecdruka, new string[] { "lv" }, false);
+		}
+
+		/// <summary>
+		/// The Viennese dialect of German
+		/// added: 2025-06-22
+		/// </summary>
+		public static Variant Viennese => VienneseCache.Instance;
+
+		private static class VienneseCache
+		{
+			public static readonly Variant Instance = new Variant("viennese", VariantCode.Viennese, new string[] { "de" }, false);
 		}
 
 		/// <summary>

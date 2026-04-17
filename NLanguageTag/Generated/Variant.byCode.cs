@@ -20,6 +20,7 @@ namespace NLanguageTag
 				case VariantCode.V1994: return V1994Cache.Instance;
 				case VariantCode.V1996: return V1996Cache.Instance;
 				case VariantCode.Abl1943: return Abl1943Cache.Instance;
+				case VariantCode.Akhmimic: return AkhmimicCache.Instance;
 				case VariantCode.Akuapem: return AkuapemCache.Instance;
 				case VariantCode.Alalc97: return Alalc97Cache.Instance;
 				case VariantCode.Aluku: return AlukuCache.Instance;
@@ -41,6 +42,7 @@ namespace NLanguageTag
 				case VariantCode.Biscayan: return BiscayanCache.Instance;
 				case VariantCode.Biske: return BiskeCache.Instance;
 				case VariantCode.Blasl: return BlaslCache.Instance;
+				case VariantCode.Bohairic: return BohairicCache.Instance;
 				case VariantCode.Bohoric: return BohoricCache.Instance;
 				case VariantCode.Boont: return BoontCache.Instance;
 				case VariantCode.Bornholm: return BornholmCache.Instance;
@@ -52,6 +54,7 @@ namespace NLanguageTag
 				case VariantCode.Ekavsk: return EkavskCache.Instance;
 				case VariantCode.Emodeng: return EmodengCache.Instance;
 				case VariantCode.Fascia: return FasciaCache.Instance;
+				case VariantCode.Fayyumic: return FayyumicCache.Instance;
 				case VariantCode.Fodom: return FodomCache.Instance;
 				case VariantCode.Fonipa: return FonipaCache.Instance;
 				case VariantCode.Fonkirsh: return FonkirshCache.Instance;
@@ -87,8 +90,10 @@ namespace NLanguageTag
 				case VariantCode.Ltg1929: return Ltg1929Cache.Instance;
 				case VariantCode.Ltg2007: return Ltg2007Cache.Instance;
 				case VariantCode.Luna1918: return Luna1918Cache.Instance;
+				case VariantCode.Lycopol: return LycopolCache.Instance;
 				case VariantCode.Mdcegyp: return MdcegypCache.Instance;
 				case VariantCode.Mdctrans: return MdctransCache.Instance;
+				case VariantCode.Mesokem: return MesokemCache.Instance;
 				case VariantCode.Metelko: return MetelkoCache.Instance;
 				case VariantCode.Monoton: return MonotonCache.Instance;
 				case VariantCode.Ndyuka: return NdyukaCache.Instance;
@@ -113,17 +118,21 @@ namespace NLanguageTag
 				case VariantCode.Rigik: return RigikCache.Instance;
 				case VariantCode.Rozaj: return RozajCache.Instance;
 				case VariantCode.Rumgr: return RumgrCache.Instance;
+				case VariantCode.Sahidic: return SahidicCache.Instance;
 				case VariantCode.Saigon: return SaigonCache.Instance;
 				case VariantCode.Scotland: return ScotlandCache.Instance;
 				case VariantCode.Scouse: return ScouseCache.Instance;
 				case VariantCode.Simple: return SimpleCache.Instance;
+				case VariantCode.Slepe: return SlepeCache.Instance;
 				case VariantCode.Solba: return SolbaCache.Instance;
 				case VariantCode.Sotav: return SotavCache.Instance;
 				case VariantCode.Spanglis: return SpanglisCache.Instance;
+				case VariantCode.Stadi: return StadiCache.Instance;
 				case VariantCode.Surmiran: return SurmiranCache.Instance;
 				case VariantCode.Sursilv: return SursilvCache.Instance;
 				case VariantCode.Sutsilv: return SutsilvCache.Instance;
 				case VariantCode.Synnejyl: return SynnejylCache.Instance;
+				case VariantCode.Taglish: return TaglishCache.Instance;
 				case VariantCode.Tailo: return TailoCache.Instance;
 				case VariantCode.Tarask: return TaraskCache.Instance;
 				case VariantCode.Tongyong: return TongyongCache.Instance;
@@ -137,6 +146,7 @@ namespace NLanguageTag
 				case VariantCode.Valencia: return ValenciaCache.Instance;
 				case VariantCode.Vallader: return ValladerCache.Instance;
 				case VariantCode.Vecdruka: return VecdrukaCache.Instance;
+				case VariantCode.Viennese: return VienneseCache.Instance;
 				case VariantCode.Vivaraup: return VivaraupCache.Instance;
 				case VariantCode.Wadegile: return WadegileCache.Instance;
 				case VariantCode.Xsistemo: return XsistemoCache.Instance;

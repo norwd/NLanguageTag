@@ -400,6 +400,7 @@ namespace NLanguageTag
 			{
 				case 'o': return tryParseFromExtLanguage_SGN_L3_do(span);
 				case 's': return tryParseFromExtLanguage_SGN_L3_ds(span);
+				case 'y': return tryParseFromExtLanguage_SGN_L3_dy(span);
 				default: return null;
 			}
 		}
@@ -420,6 +421,13 @@ namespace NLanguageTag
 				case 'z': return Language.DSZ;
 				default: return null;
 			}
+		}
+		
+		private static Language? tryParseFromExtLanguage_SGN_L3_dy(StringSpan span)
+		{
+			if(Char.ToLowerInvariant(span[2]) == 'l')
+				return Language.DYL;
+			return null;
 		}
 		
 		private static Language? tryParseFromExtLanguage_SGN_L3_e(StringSpan span)

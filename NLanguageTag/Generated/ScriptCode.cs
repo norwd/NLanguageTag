@@ -363,6 +363,11 @@ namespace NLanguageTag
 		Hmnp = 66,
 
 		/// <summary>
+		/// code of <see cref="Script.Hntl"/>
+		/// </summary>
+		Hntl = 223,
+
+		/// <summary>
 		/// code of <see cref="Script.Hrkt"/>
 		/// </summary>
 		Hrkt = 67,
@@ -826,6 +831,11 @@ namespace NLanguageTag
 		/// code of <see cref="Script.Saur"/>
 		/// </summary>
 		Saur = 150,
+
+		/// <summary>
+		/// code of <see cref="Script.Seal"/>
+		/// </summary>
+		Seal = 224,
 
 		/// <summary>
 		/// code of <see cref="Script.Sgnw"/>

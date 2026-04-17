@@ -9276,6 +9276,11 @@ namespace NLanguageTag
 		DYI = 1981,
 
 		/// <summary>
+		/// code of <see cref="Language.DYL"/>
+		/// </summary>
+		DYL = 8267,
+
+		/// <summary>
 		/// code of <see cref="Language.DYM"/>
 		/// </summary>
 		DYM = 1982,
@@ -18817,6 +18822,11 @@ namespace NLanguageTag
 		LFA = 3793,
 
 		/// <summary>
+		/// code of <see cref="Language.LFB"/>
+		/// </summary>
+		LFB = 8268,
+
+		/// <summary>
 		/// code of <see cref="Language.LFN"/>
 		/// </summary>
 		LFN = 3794,
@@ -26005,6 +26015,11 @@ namespace NLanguageTag
 		OAC = 5181,
 
 		/// <summary>
+		/// code of <see cref="Language.OAK"/>
+		/// </summary>
+		OAK = 8269,
+
+		/// <summary>
 		/// code of <see cref="Language.OAR"/>
 		/// </summary>
 		OAR = 5182,
@@ -26318,6 +26333,11 @@ namespace NLanguageTag
 		/// code of <see cref="Language.OLA"/>
 		/// </summary>
 		OLA = 5238,
+
+		/// <summary>
+		/// code of <see cref="Language.OLB"/>
+		/// </summary>
+		OLB = 8270,
 
 		/// <summary>
 		/// code of <see cref="Language.OLD"/>
@@ -26694,6 +26714,11 @@ namespace NLanguageTag
 		/// code of <see cref="Language.OSC"/>
 		/// </summary>
 		OSC = 5309,
+
+		/// <summary>
+		/// code of <see cref="Language.OSD"/>
+		/// </summary>
+		OSD = 8271,
 
 		/// <summary>
 		/// code of <see cref="Language.OSI"/>
@@ -30254,6 +30279,11 @@ namespace NLanguageTag
 		/// code of <see cref="Language.SCX"/>
 		/// </summary>
 		SCX = 5992,
+
+		/// <summary>
+		/// code of <see cref="Language.SCZ"/>
+		/// </summary>
+		SCZ = 8272,
 
 		/// <summary>
 		/// code of <see cref="Language.SD"/>
@@ -40162,6 +40192,7 @@ namespace NLanguageTag
 		/// <summary>
 		/// code of <see cref="Language.YOL"/>
 		/// </summary>
+		[Obsolete("similarly Language.YOL")]
 		YOL = 7881,
 
 		/// <summary>
