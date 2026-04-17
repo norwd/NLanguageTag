@@ -14,7 +14,6 @@ namespace NLanguageTag.Benchmark
 	[RPlotExporter]
 	[HtmlExporter]
 	[MinColumn, MaxColumn, MeanColumn, MedianColumn]
-	[InvocationCount(1000000, 1000)]
 	[MemoryDiagnoser]
 	public class Parse
 	{
@@ -49,12 +48,15 @@ namespace NLanguageTag.Benchmark
 		}
 
 		[Benchmark]
+		[InvocationCount(2000000, 200)]
 		public LanguageTag L() => LanguageTag.Parse(_textL);
 
 		[Benchmark]
+		[InvocationCount(800000, 200)]
 		public LanguageTag LSR() => LanguageTag.Parse(_textLSR);
 
 		[Benchmark]
+		[InvocationCount(400000, 200)]
 		public LanguageTag LSRE() => LanguageTag.Parse(_textLSRE);
 	}
 }

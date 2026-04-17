@@ -4,7 +4,7 @@
     <Version>4.1.1</Version>
     <AssemblyTitle>NLanguageTag</AssemblyTitle>
     <AssemblyName>NLanguageTag</AssemblyName>
-    <TargetFrameworks>netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net8.0;net10.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Company>ExM</Company>
     <Authors>Anatoliy Koperin &lt;a.koperin@gmail.com&gt;</Authors>
@@ -15,7 +15,7 @@
     <RepositoryType>Github</RepositoryType>
     <RootNamespace>NLanguageTag</RootNamespace>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <PackageTags>bcp47 languagetag iso639 language rfc5646</PackageTags>
+    <PackageTags>bcp47 languagetag iso639 language rfc5646 bcp 47 languagetags iso 639 rfc 5646</PackageTags>
     <Description>Language tags are used to help identify languages, whether spoken, written, signed, or otherwise signaled, for the purpose of communication.
       Language tag syntax is defined by the IETF's BCP 47 (https://tools.ietf.org/html/bcp47) or RFC 5646 (https://datatracker.ietf.org/doc/html/rfc5646)</Description>
     <Nullable>enable</Nullable>
